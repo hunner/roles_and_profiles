@@ -1,0 +1,28 @@
+2013-06-17 Release 0.4.0
+Features:
+- Add `wordpress::wp_lang` parameter
+- Add `wordpress::wp_plugin_dir` parameter
+
+Bugfixes:
+- Add class anchors
+- Conditionalize directory management
+- Fix `@db_host` template variable
+
+2012-12-31 Release 0.2.3
+Changes:
+- Remove Apache php configuration; that responsibility falls outside of this module.
+
+2012-12-28 Release 0.2.2
+Bugfixes:
+- Pass required parameters
+
+2012-12-28 Release 0.2.1
+Bugfixes:
+- Remove extraneous files from module.
+
+2012-12-28 Release 0.2.0
+Changes:
+- Add `install_url` parameter to download tarball from other location
+
+2012-12-28 Release 0.1.0
+- Initial rewrite from jonhadfield/master

@@ -1,0 +1,26 @@
+{
+  "project_page": "https://github.com/thias/puppet-vsftpd",
+  "license": "Apache 2.0",
+  "source": "git://github.com/thias/puppet-vsftpd",
+  "checksums": {
+    "README.md": "7018ce8a1da5c975327ed866ed56fde2",
+    "templates/vsftpd.conf.orig": "e9c7483434e90193a7c618c3691e22aa",
+    "LICENSE": "99219472697a01561e7630d63aaecdc1",
+    "manifests/init.pp": "094d1dafcbe2d35ec7587c3bea18943a",
+    "Modulefile": "c4415660bf5ea7efb6ffa0a44daa0ae4",
+    "ChangeLog": "9a475b32f6c94a0efb315696d030eeed",
+    "templates/vsftpd.conf.erb": "75956b59ddf37a59199954177970a803",
+    "tests/init.pp": "e4f59a341418a2b869778c9b629f53a4"
+  },
+  "description": "Install and enable the vsftpd FTP server, a secure and fast FTP\n    server for UNIX-like systems.",
+  "version": "0.1.3",
+  "types": [
+
+  ],
+  "summary": "vsftpd FTP server",
+  "name": "thias-vsftpd",
+  "author": "Matthias Saou",
+  "dependencies": [
+
+  ]
+}

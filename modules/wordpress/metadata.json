@@ -1,0 +1,42 @@
+{
+  "name": "puppet-wordpress",
+  "version": "0.4.0",
+  "source": "https://github.com/hunner/puppet-wordpress",
+  "author": "Hunter Haugen",
+  "license": "Apache2",
+  "summary": "Puppet module to set up an instance of wordpress",
+  "description": "Installs wordpress and required mysql db/user.",
+  "project_page": "https://github.com/hunner/puppet-wordpress",
+  "dependencies": [
+    {
+      "name": "ripienaar/concat",
+      "version_requirement": ">= 0.2.0"
+    },
+    {
+      "name": "puppetlabs/mysql",
+      "version_requirement": ">= 0.5.0"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 2.3.1"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "CHANGELOG": "80efe2842e045b14b5e768537c03b9f3",
+    "Modulefile": "4ad5b585e3e607a31112b719cf4f70ad",
+    "README.markdown": "c19eac79f7b92bcfe4a753490bcb0fa9",
+    "Rakefile": "0254db5d3fc38c67a2c160d7296a24f8",
+    "manifests/app.pp": "cc59f173abcea74040cb29982a8fde09",
+    "manifests/db.pp": "8f55d0c7a34d04844e65ace12d0b582f",
+    "manifests/init.pp": "e80b9bb65e0e2372792e03e9d73fe413",
+    "spec/classes/wordpress_spec.rb": "fc92626d8f5e4ed550f1647075858baf",
+    "spec/spec.opts": "c407193b3d9028941ef59edd114f5968",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    "templates/wp-config.php.erb": "0638e30267f5561957da1b35aa17d307",
+    "templates/wp-keysalts.php.erb": "e04a38eec2e676fbb7b750077106419e",
+    "tests/init.pp": "4086340a435b8b5b3fbbdb2b119c42e4"
+  }
+}
