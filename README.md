@@ -11,4 +11,4 @@ Converts `manifests/old_site.pp` to a roles and profiles version in `manifests/s
 Usage
 -----
 
-Run `vagrant up` to provision a wordpress instance with the roles & profiles pattern. Visit http://localhost:8080/blog to configure wordpress after vagrant provisioning finishes.
+Run `vagrant up` to provision a wordpress instance with the roles & profiles pattern. Visit [http://localhost:8080/blog](http://localhost:8080/blog) to configure wordpress after vagrant provisioning finishes.
